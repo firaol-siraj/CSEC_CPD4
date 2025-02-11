@@ -1,0 +1,9 @@
+n=int(input())
+y=0
+for i in range(n):
+    l1=list(map(int,input().split()))
+    x=l1.count(1)
+    if x>=2:
+        x=1 
+        y+=x 
+print(y)
